@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+button {
+  width: min-content;
+  height: min-content;
+}
+
+.buttonTrueBackground {
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 24px;
+  border: 3px solid #91705F;
+  background-color: #91705F;
+  color: white;
+  border-radius: 5px;
+}
+
+.buttonFalseBackground {
+  padding: 10px;
+  padding-left: 80px;
+  padding-right: 80px;
+  font-size: 24px;
+  background: none;
+  border: 3px solid #91705F;
+  color: #91705F;
+  border-radius: 5px;
+}

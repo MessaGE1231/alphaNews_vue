@@ -1,0 +1,31 @@
+{
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.5.12"
+  },
+  "name": "alphanews-main",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "entities": "^4.5.0",
+    "estree-walker": "^2.0.2",
+    "magic-string": "^0.30.12",
+    "nanoid": "^3.3.7",
+    "picocolors": "^1.1.1",
+    "postcss": "^8.4.47",
+    "source-map-js": "^1.2.1"
+  },
+  "scripts": {
+    "test": "alert('Hello')"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MessaGE1231/alphaNews.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MessaGE1231/alphaNews/issues"
+  },
+  "homepage": "https://github.com/MessaGE1231/alphaNews#readme",
+  "description": ""
+}
