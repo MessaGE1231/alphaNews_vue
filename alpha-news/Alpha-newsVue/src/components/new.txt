@@ -1,0 +1,41 @@
+<section id="modalAppSection" v-show="okay">
+        <article id="modalAppContent">
+            <img id="modal_image" :src="new_Url">
+            <section class="authorAndDate">
+                <p class="author">{{ author }}</p>
+                <p class="date">{{ date }}</p>
+
+                <section class="modalAppText">
+                    <h1 class="zag">{{ modalZag }}</h1>
+                    <p class="text">{{ modalText }}</p>
+
+                </section>
+            </section>
+        </article>
+    </section>
+
+    #modalAppSection {
+    display: flex;
+    position: fixed;
+    align-self: center;
+    z-index: 1;
+    width: 95%;
+    height: 95%;
+    background-color: rgb(252, 252, 252);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    overflow-y: scroll;
+    border: 3px solid black;
+}
+
+
+#modalAppContent {
+    display: flex;
+    width: 95%;
+    height: 95%;
+    align-items: center;
+    padding: 20px 0px 100px 0px;
+    flex-direction: column;
+}
